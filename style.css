@@ -102,20 +102,92 @@ label input {
 }
 
 .btn:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 @media (max-width: 500px) {
-    .login-img {
-        display: none;
-    }
+  .login-img {
+    display: none;
+  }
 
-    .entrance {
-        width: 100%;
-        padding: 50px;
-    }
+  .entrance {
+    width: 100%;
+    padding: 50px;
+  }
 
-    .site-logo{
-        padding: 0;
-    }
+  .site-logo {
+    padding: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .login-img {
+    display: none;
+  }
+
+  .entrance {
+    width: 100%;
+    padding: 50px;
+  }
+
+  .site-logo {
+    padding: 0;
+  }
+
+  label input {
+    width: 350px;
+    height: 40px;
+  }
+
+  .btn {
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .login-img {
+    display: none;
+  }
+
+  .entrance {
+    width: 100%;
+    padding: 50px;
+  }
+
+  .site-logo {
+    padding: 0;
+  }
+
+  label input {
+    width: 300px;
+    height: 40px;
+  }
+
+  .btn {
+    width: 300px;
+  }
+}
+
+@media (max-width: 350px) {
+  .login-img {
+    display: none;
+  }
+
+  .entrance {
+    width: 100%;
+    padding: 50px;
+  }
+
+  .site-logo {
+    padding: 0;
+  }
+
+  label input {
+    width: 250px;
+    height: 40px;
+  }
+
+  .btn {
+    width: 250px;
+  }
 }
